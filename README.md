@@ -7,12 +7,12 @@ Plugin para data por extenso.
 Para incluir em seu projeto:
 
     "require": {
-        "dflourusso/LiveTimestamp": "0.1.*"
+        "dflourusso/live-timestamp": "0.1.*"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/dflourusso/LiveTimestamp.git"
+            "url": "https://github.com/dflourusso/live-timestamp.git"
         }
     ]
 
