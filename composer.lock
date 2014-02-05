@@ -1,0 +1,161 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "8ab7c8865f610d07387febcd14ae87a9",
+    "packages": [
+        {
+            "name": "nesbot/carbon",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "06f0b8a99a90c5392ceccb09b75b74ff6c08ec07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/06f0b8a99a90c5392ceccb09b75b74ff6c08ec07",
+                "reference": "06f0b8a99a90c5392ceccb09b75b74ff6c08ec07",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Carbon": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Nesbitt",
+                    "email": "brian@nesbot.com",
+                    "homepage": "http://nesbot.com"
+                }
+            ],
+            "description": "A simple API extension for DateTime.",
+            "homepage": "https://github.com/briannesbitt/Carbon",
+            "keywords": [
+                "date",
+                "datetime",
+                "time"
+            ],
+            "time": "2013-09-09 02:39:19"
+        },
+        {
+            "name": "paliari/php-date-time",
+            "version": "0.7.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paliari/php-date-time.git",
+                "reference": "409232e4ac97ec0764a0f3042da98caba44325ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paliari/php-date-time/zipball/409232e4ac97ec0764a0f3042da98caba44325ea",
+                "reference": "409232e4ac97ec0764a0f3042da98caba44325ea",
+                "shasum": ""
+            },
+            "require": {
+                "nesbot/carbon": "1.4.*"
+            },
+            "require-dev": {
+                "zendframework/zendframework1": "1.12.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Paliari\\DateTime\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcos Paliari",
+                    "email": "marcos@paliari.com.br",
+                    "homepage": "http://paliari.com.br"
+                }
+            ],
+            "description": "Tratamento de Data e Hora para PHP",
+            "homepage": "https://github.com/paliari/php-date-time",
+            "keywords": [
+                "date",
+                "datetime",
+                "php"
+            ],
+            "time": "2013-11-14 21:10:21"
+        },
+        {
+            "name": "sinergia/brasil",
+            "version": "0.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sinergia/brasil.git",
+                "reference": "1d3dd302c769a56115e570ef02202a6aeca2720a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sinergia/brasil/zipball/1d3dd302c769a56115e570ef02202a6aeca2720a",
+                "reference": "1d3dd302c769a56115e570ef02202a6aeca2720a",
+                "shasum": ""
+            },
+            "require": {
+                "paliari/php-date-time": "0.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sinergia\\Brasil\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcos Neves",
+                    "email": "marcos.neves@gmail.com",
+                    "homepage": "http://www.sinergia.mobi/"
+                }
+            ],
+            "description": "Brazilian specific utils.",
+            "homepage": "https://github.com/sinergia/brasil",
+            "keywords": [
+                "brasil",
+                "brazil",
+                "cpf",
+                "cpnj",
+                "estado",
+                "php",
+                "uf"
+            ],
+            "time": "2013-11-19 17:36:42"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

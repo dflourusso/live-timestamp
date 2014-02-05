@@ -1,0 +1,21 @@
+{
+    "name": "LiveTimestamp",
+    "description": "Time por extenso",
+    "keywords": ["livetimestamp", "data por extenso"],
+    "homepage": "https://github.com/dflourusso",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daniel Fernando Lourusso"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "src": ""
+        }
+    },
+    "require": {
+        "sinergia/brasil": "0.5.*"
+    }
+}
