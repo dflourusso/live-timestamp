@@ -1,15 +1,16 @@
 <?php
 
-namespace src;
+namespace Dflourusso;
 
 use DateTime,
     DomainException,
-    Exception
+    Exception,
+    Sinergia\Brasil\DateTime\DateTimeBr
     ;
 
 /**
  * Class getExtenso
- * @package src
+ * @package Dflourusso\Extenso
  */
 class getExtenso
 {

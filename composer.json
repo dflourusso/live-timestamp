@@ -1,8 +1,8 @@
 {
-    "name": "live-timestamp",
+    "name": "dflourusso/live-timestamp",
     "description": "Time por extenso",
     "keywords": ["livetimestamp", "data por extenso"],
-    "homepage": "https://github.com/dflourusso",
+    "homepage": "https://github.com/dflourusso/live-timestamp",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "src": ""
+            "Dflourusso\\": "src"
         }
     },
     "require": {
